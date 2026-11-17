@@ -1,6 +1,6 @@
 
 <?php
-require_once '../connexion.php';
+require_once '../database/connexion.php';
 
 // a. Récupérer l'identifiant
 $id = $_GET['id'];
