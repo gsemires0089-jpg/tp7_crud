@@ -1,5 +1,5 @@
 <?php
-require_once '../connexion.php';
+require_once '../database/connexion.php';
 
 $sql = "SELECT etudiants.*, formations.nom_formation
         FROM etudiants
