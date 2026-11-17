@@ -1,6 +1,6 @@
 
 <?php
-require_once '../connexion.php';
+require_once '../database/connexion.php';
 
 $sql = "SELECT * FROM formations";
 $stmt = $pdo->query($sql);
