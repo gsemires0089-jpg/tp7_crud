@@ -1,7 +1,6 @@
 
 <?php
-require_once '../connexion.php';
-
+require_once '../database/connexion.php';
 // Récupérer les formations
 $sql = "SELECT * FROM formations";
 $stmt = $pdo->query($sql);
