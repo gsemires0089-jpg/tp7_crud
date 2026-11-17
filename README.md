@@ -25,7 +25,8 @@ tp7_crud/
 │
 ├── connexion.php
 ├── index.php
-│
+│── tp7_crud.sql
+
 ├── formations/
 │   ├── index.php
 │   ├── create.php
@@ -56,17 +57,19 @@ tp7_crud/
 - Utilisation de listes déroulantes dans les formulaires.
 - Connexion à la base de données avec PDO.
 
+
 ## 5. Installation et exécution
 
 1. Installer XAMPP.
-2. Copier le dossier du projet dans `htdocs`.
-3. Démarrer Apache et MySQL.
-4. Créer la base de données `tp7_crud` dans phpMyAdmin.
-5. Importer le fichier SQL de la base de données.
-6. Vérifier les paramètres de connexion dans `connexion.php`.
-7. Ouvrir le navigateur et accéder à :
+2. Télécharger ou cloner le projet dans le dossier `htdocs`.
+3. Démarrer Apache et MySQL depuis XAMPP.
+4. Ouvrir phpMyAdmin.
+5. Créer une base de données nommée `tp7_crud`.
+6. Importer le fichier `tp7_crud.sql`.
+7. Vérifier les paramètres de connexion dans `connexion.php`.
+8. Ouvrir le navigateur et accéder à :
 
-`http://localhost/mon%20projet/`
+http://localhost/mon%20projet/?utm_source=chatgpt.com
 
 ## 6. Auteur
 
