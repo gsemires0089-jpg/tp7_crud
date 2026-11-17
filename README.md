@@ -67,7 +67,7 @@ tp7_crud/
 4. Ouvrir phpMyAdmin.
 5. Créer une base de données nommée `tp7_crud`.
 6. Importer le fichier `tp7_crud.sql`.
-7. Vérifier les paramètres de connexion dans `connexion.php`.
+7. Vérifier les paramètres de connexion dans `database/connexion.php`.
 8. Ouvrir le navigateur et accéder à :
 
 http://localhost/mon%20projet/?utm_source=chatgpt.com
