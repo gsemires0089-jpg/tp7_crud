@@ -23,7 +23,8 @@ L'application permet d'effectuer les opérations CRUD :
 ```text
 tp7_crud/
 │
-├── connexion.php
+├── database/
+│   └── connexion.php
 ├── index.php
 │── tp7_crud.sql
 
